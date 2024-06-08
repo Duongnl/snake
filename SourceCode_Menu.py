@@ -16,7 +16,7 @@ sound_anThucan = pygame.mixer.Sound("AnThucAn.mp3")
 sound_click = pygame.mixer.Sound("ClickPiu.mp3")
 sound_dangChoi = pygame.mixer.Sound("DangChoi.mp3")
 channel_dangChoi = pygame.mixer.Channel(0)
-
+   
 pygame.mixer.music.load("NhacCho.mp3")
 # Thiết lập sự kiện kết thúc của âm thanh
 music_end_event = pygame.USEREVENT + 1
